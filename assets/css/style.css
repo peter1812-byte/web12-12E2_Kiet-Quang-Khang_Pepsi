@@ -1,0 +1,69 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --pepsi-blue: #005CB4;
+  --pepsi-dark: #003778;
+  --pepsi-red: #CE1126;
+}
+
+h1, h2, h3, .w3-wide {
+  color: var(--pepsi-red) !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.w3-top .w3-bar {
+  background-color: var(--pepsi-dark) !important;
+}
+
+.w3-top .w3-button:hover {
+  background-color: var(--pepsi-red) !important;
+  color: white !important;
+}
+
+#band img, #tour img {
+  border: 3px solid var(--pepsi-blue);
+  border-radius: 8px;
+}
+
+#tour {
+  background-color: var(--pepsi-dark) !important;
+  color:white;
+}
+
+#tour .w3-container.w3-white {
+  border-top: 4px solid var(--pepsi-blue);
+}
+
+.w3-tag.w3-red {
+  background-color: var(--pepsi-red) !important;
+}
+
+#ticketModal .w3-blue,
+#ticketModal button.w3-blue {
+  background-color: var(--pepsi-blue) !important;
+}
+
+#ticketModal button.w3-red {
+  background-color: var(--pepsi-red) !important;
+}
+
+#contact h2 {
+  color: var(--pepsi-red) !important;
+}
+
+#contact .w3-button.w3-black {
+  background-color: var(--pepsi-blue) !important;
+  color:white !important;
+}
+
+#contact .w3-button.w3-black:hover {
+  background-color: var(--pepsi-red) !important;
+}
+
+footer {
+  background-color: var(--pepsi-blue) !important;
+  color:white;
+}
